@@ -6,7 +6,7 @@ const notFoundHandler = require("./controler/notFound.js");
 const smsRouter = require("./routers/smsRouter.js");
 app.get("/", (req, res) => {
     res.json({
-        message: "not Fiund "
+        message: "Hello frend try to end point "
     });
 });
 app.use(express.urlencoded({ extended: true }));
